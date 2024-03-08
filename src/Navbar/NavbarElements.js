@@ -34,8 +34,8 @@ const Navbar = () => {
     return(
         <>
         <div className="top-nav">
-            <Link to="rehome"> Rehome</Link>
             <Link to="adopt"> Adopt</Link>
+            <Link to="rehome"> Rehome</Link>
         </div>
 
         <nav className="navbar">    
@@ -50,10 +50,10 @@ const Navbar = () => {
                     <button type="button" className="dropbtn" onClick={showDropdown}>Browse Pets </button>
                     {dropdownVisible && (
                         <div className="dropdown-content">
-                        <a href="#dogs">Dogs</a>
-                        <a href="#cats">Cats</a>
-                        <a href="#birds">Birds</a>
-                        <a href="#small-pets">Small Pets</a>
+                        <Link to=""> Dogs</Link>
+                        <Link to=""> Cats</Link>
+                        <Link to=""> Birds</Link>
+                        <Link to=""> Other Pets</Link>
                     </div>
                     )}
                 </li>   

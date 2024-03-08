@@ -3,7 +3,8 @@ import React from "react";
 const Rehome = () => {
     return (
         <div>
-            <h1>Main page of what I think is called Paws n Claws</h1>
+            <h1>Welcome to Paws n Claws</h1>
+            <h2> But for Rehoming instead</h2>
         </div>
     );
 };
