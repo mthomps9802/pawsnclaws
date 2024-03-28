@@ -1,0 +1,27 @@
+.carousel-container {
+    width: 100%; /* or the width you desire */
+    max-width: 1200px; /* maximum width of the carousel */
+    margin: 0 auto; /* center the carousel if it's not full-width */
+    position: relative; /* if you need to position anything relative to the carousel */
+    overflow: hidden; /* to clean up any overflowing content */
+  }
+
+  .carousel .slide {
+    display: flex;
+    justify-content: center; /* Center the slide content */
+    align-items: center; /* Align the slide content vertically */
+    height: 500px; /* Set a specific height for your slides */
+  }
+
+  .carousel img {
+    width: auto; /* keep image aspect ratio */
+    max-width: 100%; /* make sure it is not bigger than the container */
+    height: auto; /* keep image aspect ratio */
+    max-height: 100%; /* make sure it is not taller than the slide */
+  }
+  
+  @media (max-width: 768px) {
+    .carousel .slide {
+      height: 300px; /* Smaller height for smaller devices */
+    }
+  }

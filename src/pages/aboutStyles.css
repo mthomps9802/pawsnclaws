@@ -1,0 +1,42 @@
+.about-container {
+    width: 90%; /* Adjust the width of the container */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.header {
+    text-align: left;
+}
+
+.head-image {
+    border-radius: 40px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px; /* Add some space below the header image */
+}
+
+.content-container {
+    display: flex; /* Establish a flex container */
+    justify-content: space-between; /* Add space between the list and the image */
+    align-items: center; /* Vertically align items in the container */
+}
+
+.text-and-list {
+    flex: 1; /* Allows the text and list to grow and fill the space */
+    padding-right: 5px; /* Add padding between text and the second image */
+    font-size:larger;
+}
+
+.info-list {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0;
+    /* Add additional styling for your list here */
+}
+
+.second-image {
+    border-radius: 40px;
+    width: 50%; /* Adjust width as needed */
+    height: auto;
+    flex: 1; /* Allows the image to grow as needed, adjust as necessary */
+}

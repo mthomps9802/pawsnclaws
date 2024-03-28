@@ -40,7 +40,7 @@ const Navbar = () => {
 
         <nav className="navbar">    
             <div className="logo ">
-                <Link to="rehome">
+                <Link to="adopt">
                     <img src={logo} alt="logo" />
                 </Link>
                 
