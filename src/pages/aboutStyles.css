@@ -79,8 +79,9 @@ body {
 }
 
 .team-member img {
-    width: 100%; /* Make the image responsive to the container size */
-    max-width: 180px; /* Limit the size of the image */
+    width: 200px; /* Make the image responsive to the container size */
+    height: 200px;
+    object-fit: cover;
     margin: 0 auto 10px; /* Center the image and add space below */
     border-radius: 20%; /* Make the images round */
 }
